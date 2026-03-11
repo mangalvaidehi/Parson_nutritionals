@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_work_pg_section2_bodies",
+    "info": {
+        "displayName": "Section2Body"
+    },
+    "options": {},
+    "attributes": {
+        "media": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

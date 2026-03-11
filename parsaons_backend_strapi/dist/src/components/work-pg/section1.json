@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_work_pg_section1s",
+    "info": {
+        "displayName": "Section1",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "header": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.text-content"
+        },
+        "Breakthrough": {
+            "displayName": "Breakthrough",
+            "type": "component",
+            "repeatable": true,
+            "component": "work-pg.breakthrough"
+        }
+    }
+}

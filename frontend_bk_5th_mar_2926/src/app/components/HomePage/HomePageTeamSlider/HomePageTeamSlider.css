@@ -1,0 +1,6 @@
+.marker-list ul {
+    list-style: disc;
+}
+.marker-list ul li {
+    margin-bottom: 1rem;
+}

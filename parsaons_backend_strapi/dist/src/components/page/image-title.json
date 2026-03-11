@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_page_image_titles",
+    "info": {
+        "displayName": "ImageContent",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "content": {
+            "type": "string"
+        }
+    }
+}

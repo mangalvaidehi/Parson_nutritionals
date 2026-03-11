@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_pages",
+  "info": {
+    "singularName": "client-page",
+    "pluralName": "client-pages",
+    "displayName": "ClientPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": true
+    },
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-block",
+      "required": true
+    },
+    "ContactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact-us",
+      "required": true
+    }
+  }
+}

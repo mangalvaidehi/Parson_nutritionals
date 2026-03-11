@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_page_experience_sections",
+  "info": {
+    "displayName": "ExperienceSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

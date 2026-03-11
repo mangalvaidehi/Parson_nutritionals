@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_page_rich_image_texts",
+    "info": {
+        "displayName": "ImageRichContent",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "content": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.text-block",
+            "required": true
+        },
+        "media": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_page_rich_logo_contents",
+    "info": {
+        "displayName": "RichLogoContent",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "content": {
+            "type": "richtext",
+            "required": true
+        },
+        "logos": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

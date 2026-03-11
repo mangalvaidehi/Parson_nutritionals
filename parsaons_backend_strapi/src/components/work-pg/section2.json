@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_work_pg_section2s",
+  "info": {
+    "displayName": "Section2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-content"
+    },
+    "blocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.text-content"
+    },
+    "LogoBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-logo"
+    },
+    "body_media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "MapLocation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.map-location",
+      "required": true
+    }
+  }
+}

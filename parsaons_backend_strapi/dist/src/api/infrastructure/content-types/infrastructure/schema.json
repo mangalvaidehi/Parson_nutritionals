@@ -1,0 +1,50 @@
+{
+    "kind": "collectionType",
+    "collectionName": "infrastructures",
+    "info": {
+        "singularName": "infrastructure",
+        "pluralName": "infrastructures",
+        "displayName": "Infrastructure",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "details": {
+            "type": "text",
+            "required": true
+        },
+        "Features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page.list-items",
+            "required": true
+        },
+        "media": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "Facts": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page.list-items",
+            "required": true
+        },
+        "order": {
+            "type": "integer",
+            "required": true,
+            "min": 1,
+            "unique": true
+        }
+    }
+}

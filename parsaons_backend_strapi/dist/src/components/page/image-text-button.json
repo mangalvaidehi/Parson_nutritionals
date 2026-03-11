@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_page_image_text_buttons",
+    "info": {
+        "displayName": "ImageContentButton",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "content": {
+            "type": "text",
+            "required": true
+        },
+        "media": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "btn_text": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

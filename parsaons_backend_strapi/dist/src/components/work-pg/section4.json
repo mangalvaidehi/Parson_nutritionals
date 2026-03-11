@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_work_pg_section4s",
+    "info": {
+        "displayName": "Section4"
+    },
+    "options": {},
+    "attributes": {
+        "Header": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.text-content"
+        },
+        "FacilitesList": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page.image-title"
+        }
+    }
+}

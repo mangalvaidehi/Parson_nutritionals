@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "esg_pages",
+  "info": {
+    "singularName": "esg-page",
+    "pluralName": "esg-pages",
+    "displayName": "ESGPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.rich-image-text",
+      "required": true
+    },
+    "ContactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact-us",
+      "required": true
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header-with-content",
+      "required": true
+    }
+  }
+}

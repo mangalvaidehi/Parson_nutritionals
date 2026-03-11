@@ -1,0 +1,26 @@
+{
+    "collectionName": "components_page_strengths",
+    "info": {
+        "displayName": "Strengths",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "points": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page.list-items"
+        },
+        "media": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

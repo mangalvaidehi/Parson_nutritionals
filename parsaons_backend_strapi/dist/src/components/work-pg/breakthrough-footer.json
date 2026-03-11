@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_work_pg_breakthrough_footers",
+    "info": {
+        "displayName": "BreakthroughFooter",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icon": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "tt": {
+            "type": "string"
+        }
+    }
+}

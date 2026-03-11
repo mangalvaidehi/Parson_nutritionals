@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "work_pages",
+  "info": {
+    "singularName": "work-page",
+    "pluralName": "work-pages",
+    "displayName": "WorkPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Breakthrough": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-pg.section1",
+      "required": true
+    },
+    "Footprint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-pg.section2",
+      "required": true
+    },
+    "Projects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-pg.section3",
+      "required": true
+    },
+    "Facilities": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-pg.section4",
+      "required": true
+    },
+    "Chains": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-pg.section5",
+      "required": true
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header-with-content"
+    },
+    "ChainsBody": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.rich-image-text",
+      "required": true
+    },
+    "ProjectsBody": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.rich-image-text",
+      "required": true
+    }
+  }
+}

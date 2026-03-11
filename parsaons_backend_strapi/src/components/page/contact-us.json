@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_contactuses",
+  "info": {
+    "displayName": "ContactUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "btn_text": {
+      "type": "string"
+    }
+  }
+}

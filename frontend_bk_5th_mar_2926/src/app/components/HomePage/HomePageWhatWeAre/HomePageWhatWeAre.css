@@ -1,0 +1,8 @@
+.markdown-content p {
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.what-we-are::-webkit-scrollbar {
+    width: 0;
+}

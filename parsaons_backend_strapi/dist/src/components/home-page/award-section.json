@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_home_page_award_sections",
+    "info": {
+        "displayName": "AwardSection"
+    },
+    "options": {},
+    "attributes": {
+        "media": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

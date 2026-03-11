@@ -1,0 +1,46 @@
+{
+    "kind": "collectionType",
+    "collectionName": "contacts",
+    "info": {
+        "singularName": "contact",
+        "pluralName": "contacts",
+        "displayName": "contact",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "email",
+            "required": true
+        },
+        "mobile": {
+            "type": "string",
+            "required": true
+        },
+        "city": {
+            "type": "string",
+            "required": true
+        },
+        "country": {
+            "type": "string",
+            "required": true
+        },
+        "company_name": {
+            "type": "string"
+        },
+        "website": {
+            "type": "string"
+        },
+        "service_requirements": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

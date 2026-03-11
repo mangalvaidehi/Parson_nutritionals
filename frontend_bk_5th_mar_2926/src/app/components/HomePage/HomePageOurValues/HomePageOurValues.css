@@ -1,0 +1,19 @@
+.marker-down ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+.marker-down ul li {
+    margin-bottom: 1rem;
+}
+
+.hoverd-on:hover .hovered-on-img > div {
+    background-color: white;
+}
+
+.hoverd-on:hover .hovered-on-img img {
+    filter: invert(0);
+}
+
+.hoverd-on:hover .hovered-text {
+    color: white;
+}

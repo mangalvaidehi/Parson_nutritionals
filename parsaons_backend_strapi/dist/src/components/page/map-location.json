@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_page_map_locations",
+    "info": {
+        "displayName": "MapLocation",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "LocationName": {
+            "type": "string",
+            "required": true
+        },
+        "LocationIcon": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "RedirectUrl": {
+            "type": "string"
+        },
+        "Latitude": {
+            "type": "string"
+        },
+        "Longitude": {
+            "type": "string"
+        }
+    }
+}

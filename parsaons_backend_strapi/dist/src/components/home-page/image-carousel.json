@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_page_image_carousels",
+    "info": {
+        "displayName": "Header",
+        "icon": "archive",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "media": {
+            "type": "media",
+            "multiple": true,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "page.stats",
+            "required": true
+        }
+    }
+}

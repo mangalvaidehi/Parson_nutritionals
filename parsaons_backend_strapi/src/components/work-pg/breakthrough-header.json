@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_work_pg_breakthrough_headers",
+  "info": {
+    "displayName": "BreakthroughHeader"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

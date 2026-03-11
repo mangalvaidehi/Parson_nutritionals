@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_list_items",
+  "info": {
+    "displayName": "IconContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

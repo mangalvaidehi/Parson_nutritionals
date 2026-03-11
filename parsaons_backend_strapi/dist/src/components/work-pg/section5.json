@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_work_pg_section5s",
+    "info": {
+        "displayName": "Section5"
+    },
+    "options": {},
+    "attributes": {
+        "Header": {
+            "type": "component",
+            "repeatable": false,
+            "component": "page.text-content"
+        }
+    }
+}

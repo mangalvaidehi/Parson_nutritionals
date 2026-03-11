@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_header_with_contents",
+  "info": {
+    "displayName": "HeaderWithContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-content",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_pages",
+  "info": {
+    "singularName": "product-page",
+    "pluralName": "product-pages",
+    "displayName": "ProductPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "Body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-block"
+    }
+  }
+}

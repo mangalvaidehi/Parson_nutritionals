@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "performance_awards",
+  "info": {
+    "singularName": "performance-award",
+    "pluralName": "performance-awards",
+    "displayName": "Performance Award",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
