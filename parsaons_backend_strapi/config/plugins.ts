@@ -1,14 +1,14 @@
 export default ({ env }) => ({
   email: {
     config: {
-      provider: "sendgrid", // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
+      provider: "sendgrid",
       providerOptions: {
         apiKey: env("SENDGRID_API_KEY"),
       },
       settings: {
-        defaultFrom: "parsonsnutritionals162@gmail.com",
-        defaultReplyTo: "parsonsnutritionals162@gmail.com",
-        testAddress: "parsonsnutritionals162@gmail.com",
+        defaultFrom: "info@parsonsnutrionals.in",
+        defaultReplyTo: "info@parsonsnutrionals.in",
+        testAddress: "info@parsonsnutrionals.in",
       },
     },
   },

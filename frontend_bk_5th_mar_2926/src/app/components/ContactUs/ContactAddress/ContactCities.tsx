@@ -3,12 +3,12 @@
 import React, { useState } from 'react';
 import MapCanvas from './Mapcanvas';
 
-const ContactCities = ({ mapLocations, applyFilter }: { mapLocations: any, applyFilter?: boolean }) => {
+const ContactCities = ({ mapLocations, applyFilter, onLocationSelect }: { mapLocations: any, applyFilter?: boolean, onLocationSelect?: (name: string) => void }) => {
   const [hoveredCity, setHoveredCity] = useState<string | null>(null);
 
   return (
     <div className="w-full h-full">
-      <MapCanvas locations={mapLocations} applyFilter={applyFilter} />
+      <MapCanvas locations={mapLocations} applyFilter={applyFilter} onLocationSelect={onLocationSelect} />
       {hoveredCity && (
         <div className="absolute top-0 right-0 bg-white dark:bg-black dark:border-[1px] dark:border-gray-700 p-2 rounded shadow">
           <p>{hoveredCity}</p>

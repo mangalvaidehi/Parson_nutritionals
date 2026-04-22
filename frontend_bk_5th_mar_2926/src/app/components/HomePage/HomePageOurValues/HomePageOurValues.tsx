@@ -23,7 +23,7 @@ const HomePageOurValues = ({ homePageDataValue }: { homePageDataValue: any }) =>
             {ourValuesData?.items.map((item: any, index: number) => (
                     <div
                         key={index}
-                        className="hoverd-on w-full sm:w-[48%] lg:w-[30%] md:h-[25rem] h-auto bg-white dark:bg-black dark:border-2 dark:border-gray-700 rounded-2xl hover:bg-[#0059DF] px-8 py-8 mb-8 sm:mb-0"
+                        className="hoverd-on w-full sm:w-[48%] lg:w-[30%] md:h-[25rem] h-auto bg-white dark:bg-black dark:border-2 dark:border-gray-700 rounded-2xl hover:bg-[#16a34a] px-8 py-8 mb-8 sm:mb-0"
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}
                     >

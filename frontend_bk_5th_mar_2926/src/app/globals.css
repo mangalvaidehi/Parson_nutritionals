@@ -4,8 +4,11 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+  --brand-green: #16a34a;
+  --brand-green-dark: #14532d;
+  color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,14 +19,13 @@
   }
 }
 
+html {
+  color-scheme: light;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(var(--background-start-rgb));
 }
 
 

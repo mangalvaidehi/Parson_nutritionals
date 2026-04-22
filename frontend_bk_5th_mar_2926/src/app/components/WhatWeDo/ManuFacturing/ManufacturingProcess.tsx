@@ -25,7 +25,7 @@ const ManufacturingProcess = ({ whatWeDoDataValue }: { whatWeDoDataValue: any })
                                     src={`${imageBaseUrl}${process.header.image.data.attributes.url}`}
                                     alt='content-box-image'
                                 />
-                                <div className='absolute left-0 right-0 bottom-0 bg-[#0059DF] w-full flex items-center py-8 px-8 gap-2'>
+                                <div className='absolute left-0 right-0 bottom-0 bg-[#16a34a] w-full flex items-center py-8 px-8 gap-2'>
                                     <div className='text-white font-bold text-2xl w-[5rem] flex justify-center items-center'>
                                         {process?.body?.number}
                                     </div>

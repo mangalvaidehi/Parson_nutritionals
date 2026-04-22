@@ -141,7 +141,7 @@ const AboutInfrastructure = ({aboutUsPageInfrastructureValue}: {aboutUsPageInfra
                                             onClick={() => {
                                                 window.open('/contact-us', '_blank');
                                             }}
-                                            className='bg-[#0059DF] px-8 py-4 rounded-xl text-white text-lg font-bold'
+                                            className='bg-[#16a34a] px-8 py-4 rounded-xl text-white text-lg font-bold'
                                         >
                                             Contact Now
                                         </Button>
@@ -157,7 +157,7 @@ const AboutInfrastructure = ({aboutUsPageInfrastructureValue}: {aboutUsPageInfra
                         {sortedInfrastructureData && sortedInfrastructureData.map((detail: InfrastructureDetail, index: number) => (
                             <Button
                                 key={index}
-                                className={`px-4 py-2 rounded-lg focus:outline-none relative ${activeTab === index ? 'bg-[#0059DF] text-white tab-active' : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-400'}`}
+                                className={`px-4 py-2 rounded-lg focus:outline-none relative ${activeTab === index ? 'bg-[#16a34a] text-white tab-active' : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-400'}`}
                                 onClick={() => setActiveTab(index)}
                             >
                                 {detail.attributes?.name}

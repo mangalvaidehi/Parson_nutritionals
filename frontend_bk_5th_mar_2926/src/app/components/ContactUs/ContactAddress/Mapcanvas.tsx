@@ -12,9 +12,10 @@ interface Location {
 interface MapCanvasProps {
   locations: Location[];
   applyFilter?: boolean;
+  onLocationSelect?: (locationName: string) => void;
 }
 
-const MapCanvas: React.FC<MapCanvasProps> = ({ locations = [], applyFilter }) => {
+const MapCanvas: React.FC<MapCanvasProps> = ({ locations = [], applyFilter, onLocationSelect }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const [hoveredLocation, setHoveredLocation] = useState<Location | null>(null);
@@ -111,8 +112,12 @@ const MapCanvas: React.FC<MapCanvasProps> = ({ locations = [], applyFilter }) =>
             const distance = Math.sqrt((mouseX - x) ** 2 + (mouseY - y) ** 2);
 
             if (distance < 10) { // Radius for click detection
-              localStorage.setItem('locationName', LocationName);
-              window.location.href = 'about-us/#locations'; // Redirect to the locations section
+              if (onLocationSelect) {
+                onLocationSelect(LocationName);
+              } else {
+                localStorage.setItem('locationName', LocationName);
+                window.location.href = 'about-us/#locations';
+              }
             }
           }
         });

@@ -107,7 +107,7 @@ const ProductListcategory: React.FC<ProductCategoryProps> = ({
           <button
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
-            className={`px-4 py-2 rounded-lg transition duration-200 ${currentPage === 1 ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}`}
+            className={`px-4 py-2 rounded-lg transition duration-200 ${currentPage === 1 ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-[#16a34a] text-white hover:bg-[#15803d]'}`}
           >
             Previous
           </button>
@@ -116,7 +116,7 @@ const ProductListcategory: React.FC<ProductCategoryProps> = ({
             <button
               key={index}
               onClick={() => handlePageChange(index + 1)}
-              className={`px-4 py-2 rounded-lg transition duration-200 ${currentPage === index + 1 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
+              className={`px-4 py-2 rounded-lg transition duration-200 ${currentPage === index + 1 ? 'bg-[#16a34a] text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
             >
               {index + 1}
             </button>
@@ -125,7 +125,7 @@ const ProductListcategory: React.FC<ProductCategoryProps> = ({
           <button
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPages}
-            className={`px-4 py-2 rounded-lg transition duration-200 ${currentPage === totalPages ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-blue-600 text-white hover:bg-blue-700'}`}
+            className={`px-4 py-2 rounded-lg transition duration-200 ${currentPage === totalPages ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-[#16a34a] text-white hover:bg-[#15803d]'}`}
           >
             Next
           </button>

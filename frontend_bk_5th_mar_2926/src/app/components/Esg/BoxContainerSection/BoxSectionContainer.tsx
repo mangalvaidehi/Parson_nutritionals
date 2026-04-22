@@ -35,7 +35,7 @@ const BoxSectionContainer = ({ contactSections }: { contactSections: any }) => {
         <div className="relative w-[95%] md:w-[55%] mx-auto h-full md:h-[520px] bg-white dark:bg-black dark:border-[1px] dark:border-gray-700 md:rounded-[3.75rem] rounded-lg flex flex-col md:py-8 md:px-8 p-12 justify-center">
         {esgPagepdf?.pdf?.data?.attributes?.url && (
           <div className='absolute md:bottom-8 bottom-4 md:right-8 right-4'>
-            <a target='_blank' href={`${process.env.NEXT_PUBLIC_IMAGE_URL}${esgPagepdf?.pdf?.data?.attributes?.url}`} download className='py-2 md:px-4 px-2 rounded-md bg-blue-500 hover:bg-blue-800 text-white text-md'>
+            <a target='_blank' href={`${process.env.NEXT_PUBLIC_IMAGE_URL}${esgPagepdf?.pdf?.data?.attributes?.url}`} download className='py-2 md:px-4 px-2 rounded-md bg-[#16a34a] hover:bg-[#14532d] text-white text-md'>
               Download PDF
             </a>
           </div>

@@ -66,7 +66,7 @@ const HomePageSlider = ({ homePageDataValue }: { homePageDataValue: any }) => {
                     <button
                         key={index}
                         onClick={() => goToSlide(index)}
-                        className={`h-[6px] w-[90px] rounded-tl-[5px] rounded-tr-[5px] rounded-bl-none rounded-br-none ${index === currentIndex ? 'bg-blue-500' : 'bg-gray-300'}`}
+                        className={`h-[6px] w-[90px] rounded-tl-[5px] rounded-tr-[5px] rounded-bl-none rounded-br-none ${index === currentIndex ? 'bg-green-600' : 'bg-gray-300'}`}
                     ></button>
                 ))}
             </div>
@@ -78,7 +78,7 @@ const HomePageSlider = ({ homePageDataValue }: { homePageDataValue: any }) => {
                             {HomePageSliderData.stats.map((stat: any, index: number) => (
                                 <React.Fragment key={index}>
                                     <div className="w-[6.188rem] md:w-auto relative">
-                                        <b className="text-md text-red-500 flex items-center w-[6.013rem] h-[2rem]">
+                                        <b className="text-md text-green-600 flex items-center w-[6.013rem] h-[2rem]">
                                             {stat.value}
                                         </b>
                                         <div className="text-sm   text-slate-500 md:line-clamp-2 line-clamp-1">

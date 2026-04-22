@@ -15,7 +15,7 @@ const HomePageLegacy = () => {
 
       <div className='relative w-full flex flex-row justify-evenly items-center gap-4'>
         <div className="w-[5rem] md:[5rem] md:w-[15rem] h-[12.063rem] flex flex-col justify-center items-center">
-          <div className='flex justify-center items-center md:w-[145px] md:h-[145px] w-[5rem] h-[5rem] overflow-hidden object-cover bg-[#0059DF] rounded-full'>
+          <div className='flex justify-center items-center md:w-[145px] md:h-[145px] w-[5rem] h-[5rem] overflow-hidden object-cover bg-[#16a34a] rounded-full'>
             <Image
               className="overflow-hidden object-cover p-4"
               alt=""
@@ -28,7 +28,7 @@ const HomePageLegacy = () => {
         </div>
 
         <div className="w-[5rem] md:[5rem] md:w-[15rem] h-[12.063rem] flex flex-col justify-center items-center mt-4 md:mt-0">
-          <div className='flex justify-center items-center md:w-[145px] md:h-[145px] w-[5rem] h-[5rem] overflow-hidden object-cover bg-[#0059DF] rounded-full'>
+          <div className='flex justify-center items-center md:w-[145px] md:h-[145px] w-[5rem] h-[5rem] overflow-hidden object-cover bg-[#16a34a] rounded-full'>
             <Image
               className="overflow-hidden object-cover p-4"
               alt=""
@@ -41,7 +41,7 @@ const HomePageLegacy = () => {
         </div>
 
         <div className="w-[5rem] md:[5rem] md:w-[15rem] h-[12.063rem] flex flex-col justify-center items-center mt-4 md:mt-0">
-          <div className='flex justify-center items-center md:w-[145px] md:h-[145px] w-[5rem] h-[5rem] overflow-hidden object-cover bg-[#0059DF] rounded-full'>
+          <div className='flex justify-center items-center md:w-[145px] md:h-[145px] w-[5rem] h-[5rem] overflow-hidden object-cover bg-[#16a34a] rounded-full'>
             <Image
               className="overflow-hidden object-cover p-4"
               alt=""

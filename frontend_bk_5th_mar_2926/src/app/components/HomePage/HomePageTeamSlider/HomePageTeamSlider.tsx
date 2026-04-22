@@ -89,7 +89,7 @@ const HomePageTeamSlider = ({homePageDataValue, homePageMembersValue}: {homePage
                     <button
                         key={index}
                         onClick={() => handleClick(index)}
-                        className={`h-[6px] w-[90px] rounded-tl-[5px] rounded-tr-[5px] rounded-bl-none rounded-br-none ${index === currentIndex ? 'bg-blue-500' : 'bg-gray-300'}`}
+                        className={`h-[6px] w-[90px] rounded-tl-[5px] rounded-tr-[5px] rounded-bl-none rounded-br-none ${index === currentIndex ? 'bg-green-600' : 'bg-gray-300'}`}
                     />
                 ))}
             </div>

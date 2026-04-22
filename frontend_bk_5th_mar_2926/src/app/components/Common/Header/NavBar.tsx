@@ -28,9 +28,9 @@ const NavBar = () => {
     }, []);
 
     return (
-        <div className="relative z-20 shadow-[0px_8px_25px_rgba(71,_71,_71,_0.1)] bg-white dark:bg-black dark:border-b-2 dark:border-gray-700 w-full max-w-full mx-auto h-[5.688rem] flex flex-col items-center justify-center py-[0.625rem] px-[2rem] box-border text-left text-[0.875rem] text-darkslate-500">
-            <div className="md:gap-0 gap-2 w-full max-w-[1280px] mx-auto flex flex-row items-center justify-between">
-                <div className="flex items-center gap-2">
+        <div className="relative z-20 shadow-[0px_8px_25px_rgba(71,_71,_71,_0.1)] bg-white dark:bg-black dark:border-b-2 dark:border-gray-700 w-full max-w-full mx-auto h-[7rem] flex flex-col items-center justify-center py-[0.625rem] px-[2rem] box-border text-left text-[0.875rem] text-darkslate-500">
+            <div className="md:gap-0 gap-2 w-full max-w-[1280px] mx-auto h-full flex flex-row items-center justify-between">
+                <div className="flex items-center gap-2 h-full">
                     <button className="lg:hidden focus:outline-none" onClick={toggleMenu}>
                         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             {isOpen ? (
@@ -40,18 +40,19 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <Link className='flex flex-col gap-2 py-2 justify-center items-center' href="/">
+                    <Link className='relative flex flex-col items-center' href="/">
                         <Image
-                            className="md:w-[4.125rem] w-[2.5rem] relative h-auto object-cover"
+                            className="md:w-[6rem] w-[3.5rem] relative object-cover"
+                            style={{ display: 'block' }}
                             alt=""
                             src={Logo}
                         />
-                        <p className='relative text-sm font-medium hidden md:block'>A Mann Group Company</p>
+                        <p className='text-xs font-medium hidden md:block whitespace-nowrap leading-none -mt-2'>A Mann Group Company</p>
                     </Link>
                 </div>
                 <div className="md:hidden flex flex-row items-start justify-start text-[1rem] text-base-white font-text-sm-regular">
                     <div className="shadow-[0px_1px_2px_rgba(16,_24,_40,_0.05)] rounded-lg bg-light-blue overflow-hidden flex flex-row items-center justify-center gap-[0.5rem]">
-                        <Link href="/contact-us" className="md:w-auto w-full text-center relative leading-[1.5rem] font-medium text-lg px-4 py-4 bg-[#0059DF] rounded-xl text-white">
+                        <Link href="/contact-us" className="md:w-auto w-full text-center relative leading-[1.5rem] font-medium text-lg px-4 py-4 bg-[#16a34a] rounded-xl text-white">
                             Contact us
                         </Link>
                     </div>
@@ -85,7 +86,7 @@ const NavBar = () => {
                     </NavItem>
                 </div>
                 {isOpen && (
-                    <div className="lg:hidden absolute top-[5.688rem] left-0 w-full bg-white dark:bg-black z-10 shadow-[0px_8px_25px_rgba(71,_71,_71,_0.1)]">
+                    <div className="lg:hidden absolute top-[7rem] left-0 w-full bg-white dark:bg-black z-10 shadow-[0px_8px_25px_rgba(71,_71,_71,_0.1)]">
                         <div className="flex flex-col md:items-center md:justify-start gap-4 md:py-4 p-4">
                             <NavItem href="/">
                                 Home
@@ -118,7 +119,7 @@ const NavBar = () => {
                 )}
                 <div className="hidden md:flex flex-row items-start justify-start text-[1rem] text-base-white font-text-sm-regular">
                     <div className="shadow-[0px_1px_2px_rgba(16,_24,_40,_0.05)] rounded-lg bg-light-blue overflow-hidden flex flex-row items-center justify-center py-[0.625rem] px-[1.125rem] gap-[0.5rem]">
-                        <Link href="/contact-us" className="relative font-medium text-md px-4 py-4 bg-[#0059DF] rounded-xl text-white">
+                        <Link href="/contact-us" className="relative font-medium text-md px-4 py-4 bg-[#16a34a] rounded-xl text-white">
                             Contact us
                         </Link>
                     </div>
@@ -163,7 +164,7 @@ const NavItem = ({ href, children, subMenuItems }: { href: string; children: Rea
     return (
         <div className="relative" ref={subMenuRef}>
             <div
-                className={`flex justify-between items-center gap-2 leading-[1.5rem] font-medium text-lg cursor-pointer ${isActive ? 'text-blue-500' : 'text-darkslate-500'}`}
+                className={`flex justify-between items-center gap-2 leading-[1.5rem] font-medium text-lg cursor-pointer ${isActive ? 'text-green-600' : 'text-darkslate-500'}`}
                 onClick={toggleSubMenu}
                 onMouseEnter={() => setIsActive(true)}
                 onMouseLeave={() => setIsActive(false)}

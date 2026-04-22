@@ -104,7 +104,7 @@ const ClientsData = ({clientPageDataValue, homePageClientValue}: {clientPageData
                         {sortedClientDestails && sortedClientDestails.map((detail: ClientDetail, index: number) => (
                             <Button
                                 key={index}
-                                className={`text-md flex items-center px-4 py-2 rounded-lg focus:outline-none relative ${activeTab === index ? 'bg-[#0059DF] text-white tab-active' : 'bg-gray-200 text-gray-800'}`}
+                                className={`text-md flex items-center px-4 py-2 rounded-lg focus:outline-none relative ${activeTab === index ? 'bg-[#16a34a] text-white tab-active' : 'bg-gray-200 text-gray-800'}`}
                                 onClick={() => handleTabChange(index)}
                             >
                                 {detail?.attributes?.name}

@@ -8,9 +8,9 @@ exports.default = ({ env }) => ({
                 apiKey: env("SENDGRID_API_KEY"),
             },
             settings: {
-                defaultFrom: "parsonsnutritionals162@gmail.com",
-                defaultReplyTo: "parsonsnutritionals162@gmail.com",
-                testAddress: "parsonsnutritionals162@gmail.com",
+                defaultFrom: "info@parsonsnutrionals.in",
+                defaultReplyTo: "info@parsonsnutrionals.in",
+                testAddress: "info@parsonsnutrionals.in",
             },
         },
     },
